@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+@import "tailwindcss";
+
+
+.card-1{
+	@apply flex-col  hover:border-gray-400 border-2 border-gray-300 rounded-xl flex sm:flex-col md:flex-col items-center m-3 active:border-gray-500 sm:pr-2 sm:w-auto
+}
+
+.card{
+	@apply  hover:border-gray-400 border-2 border-gray-300 rounded-xl flex sm:flex-col md:flex-col items-center m-3 active:border-gray-500 sm:pr-2 sm:w-auto
+}
+
+
+.boxes{
+	@apply col-span-12 lg:col-span-3 md:col-span-6
+}
