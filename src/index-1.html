@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
     <link href="./css/Custoum.css" rel="custom">
-    <title>Venus</title>
+    <title>Mobile Shop</title>
 
 
 </head>
@@ -16,7 +16,7 @@
           <a href="index-1.html" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="./img/logosite.jpg" class="h-10 w-24 rounded-full"
               alt="Flowbite Logo">
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Mobile Shop</span>
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"> Shop</span>
           </a>
           
           <div class="flex md:order-2 space-x-3 md:space-x-0">
@@ -74,7 +74,7 @@
          <main class="px-10 mt-10">
       <div class="flex justify-start mt-10 mb-6 text-gray-700">
         <p class="flex text-xl font-semibold text-center">جدیدترین ها</p>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-2 mr-2">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-2 mr-2 text-blue-600 ">
           <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
         </svg>
         
@@ -213,28 +213,25 @@
 
         <div><br></div>
 
-        <div class="flex flex-row justify-around  ">
-          <div class="outline-2 outline-offset-2 outline-gray-300 hover:outline-gray-400 hover:shadow-xl rounded-xls ">
-            <a href="#">
-              <img src="/src/img/apple.logo" class="w-30" >
-            </a>
+        <div class="grid grid-cols-3 gap-4 justify-center place-items-center">
+          <div>
+              <a href="#" name="apple" >
+                  <img src="/src/img/apple.logo" class=" hover:border-2 border-gray-400 rounded-xl transition duration-200 w-20 h-20">
+              </a>
           </div>
-          <div class="outline-2 outline-gray-300 hover:outline-gray-400 hover:shadow-xl bg-white">
-            <a href="#">
-              <img src="/src/img/logo,samsung" class="w-30 h-30 " >
-            </a>
+          <div>
+              <a href="#" name="samsung" >
+                  <img src="/src/img/logo,samsung" class="  hover:border-2 border-gray-400 rounded-xl transition duration-200 w-25 h-20">
+              </a>
           </div>
-          <div class="outline-2 outline-gray-300 outline-offset-2 hover:outline-gray-400 hover:shadow-xl mt-10">
-            <a href="#">
-              <img src="/src/img/logo,xiaomi" class="w-2s0 h-20 " >
-            </a>
+          <div>
+              <a href="#" name="xiaomi" >
+                  <img src="/src/img/logo,xiaomi" class="  hover:outline-2 outline-offset-2 outline-gray-400 rounded-xl transition duration-200 w-20 h-20  ">
+              </a>
           </div>
-          <div class="outline-2 outline-gray-300 outline-offset-2 hover:outline-gray-400 hover:shadow-xl mt-10">
-            <a href="#">
-              <img src="/src/img//logo,pixel" class="w-30 h-20 " >
-            </a>
-          </div>
-        </div>
+
+      </div>
+        <!-- outline-2 transition duration-100 outline-gray-400 outline-offset-2 hover:outline-gray-400 hover:shadow-xl mt-10 rounded-2xl h-25 -->
 
 
 
@@ -408,6 +405,6 @@
         <div><br></div>
         <div><br></div>
       
-      
+        <script src="/src/js/for-index.js"></script>
 </body>
 </html>
